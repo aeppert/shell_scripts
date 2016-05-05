@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [$# -ne 1]; then
+if [ $# -ne 1 ]; then
     echo "usage: cifpy3-remove-observables.sh <observable>"
     exit 1
 fi
